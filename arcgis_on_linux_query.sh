@@ -1,7 +1,10 @@
 #!/bin/bash
 
 ###########
-# Script to pull various pieces of information from an install of ArcGIS Server on Linux
+# Script to pull various pieces of information from an install of ArcGIS Server on Linux such as Major/Minor version #, BuildNum, Tomcat and Catalina versions.
+# This was created while working with a client who had upgraded the underlying Tomcat which caused ArcGIS Server to break and this script was created to start pulling
+# this info each time clients reported issues on Linux to provide a baseline of sanity.
+
 # Created by Michael Hatcher
 # 09-30-2016
 # Version 1.0
